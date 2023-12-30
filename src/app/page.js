@@ -1,7 +1,17 @@
 import Image from 'next/image'
+import Navbar from './components/Nav'
+import Slider from './components/Slider'
+import PlaceholderImages from './components/Slider'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
-   <h1> mehwis</h1>
+    <>
+    <Navbar/>
+   <PlaceholderImages/>
+   <Footer/>
+    </>
+    
+   
   )
 }
