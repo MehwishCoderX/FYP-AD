@@ -39,12 +39,12 @@ const Navbar = () => {
         <div className="hidden md:block">
           <ul className="flex items-center space-x-4 text-white">
             <li>
-              <Link href="/signup" className=" px-8 py-1.5 bg-transparent hover:bg-white-500 text-blue-700 font-semibold hover:text-white border border--500 hover:border-transparent rounded ease-in duration-300">
+              <Link href="Auth_Signup" className=" px-8 py-1.5 bg-transparent hover:bg-white-500 text-blue-700 font-semibold hover:text-white border border--500 hover:border-transparent rounded ease-in duration-300">
                 Sign Up
               </Link>
             </li>
             <li>
-              <Link href="/login" className="px-8 py-1.5 rounded-md bg-red-800   hover:bg-pink-500">
+              <Link href="Auth_SignIn" className="px-8 py-1.5 rounded-md bg-red-800   hover:bg-pink-500">
               Sign In
               </Link>
             </li>
@@ -83,7 +83,7 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <div className="md:hidden">
-          <ul className="flex flex-col items-center justify-center bg-gray-700 py-4 space-y-4 text-white">
+          <ul className="flex flex-col items-center justify-center bg-gray-700 py-4 space-y-4 text-white onClick={<Login\>}">
             <li>
               <Link href="/">
                 Home
